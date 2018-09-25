@@ -1,0 +1,31 @@
+.flex-debug {
+	border:1px solid white;
+}
+
+header {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+nav ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.header-title-image-container {
+	display: flex;
+	justify-content: space-around;
+}
+
+.header-title-image-container h1 {
+	display: flex;
+	justify-content: flex-end;
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+}
